@@ -16,7 +16,7 @@ resource "aws_db_instance" "rds" {
   apply_immediately            = true
   skip_final_snapshot          = true
   publicly_accessible          = false
-  deletion_protection          = true
+  deletion_protection          = false
   performance_insights_enabled = true
   backup_retention_period      = 1
   backup_window                = "00:00-00:30"

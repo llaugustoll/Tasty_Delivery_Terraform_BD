@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "terraform-fiap-tasty-delivery" # example: terraform-tfstates
-    key    = "tastyDelivery/terraform.tfstate"
+    bucket = "terraform-tasty-delivery-grupo-15" # example: terraform-tfstates
+    key    = "tastyDeliveryRds/terraform.tfstate"
     region = "us-east-1" # example: us-east-1 (região escolhida na criação do bucket)
   }
 }

@@ -20,10 +20,12 @@ variable "engineRdsVersion" {
 
 variable "rdsUser" {
   description = "Inserir usuario do banco em secrets"
+  default = "postgres"
 }
 
 variable "rdsPass" {
   description = "Inserir senha do banco em secrets"
+  default = "password"
 }
 
 # variable "clusterName" {
@@ -47,19 +49,19 @@ variable "maxStorage" {
 }
 
 variable "subnet01" {
-  default = "subnet-01771c8a796deee60" # example: subnet-abcdef1
+  default = "subnet-01cc59f4090502e40" # example: subnet-abcdef1
 }
 
 variable "subnet02" {
-  default = "subnet-0a84162e75c5b1801" # example: subnet-abcdef1
+  default = "subnet-0b900cd17b500f229" # example: subnet-abcdef1
 }
 
 variable "subnet03" {
-  default = "subnet-034d0886b631d76d5" # example: subnet-abcdef1
+  default = "subnet-0e9e61355322da1f0" # example: subnet-abcdef1
 }
 
 variable "vpcId" {
-  default = "vpc-003540c96e217dcd1" # example: vpc-abcdef1
+  default = "vpc-038f74f3c650d83da" # example: vpc-abcdef1
 }
 
 variable "vpcCIDR" {
