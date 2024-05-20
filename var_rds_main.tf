@@ -15,7 +15,7 @@ variable "engineRds" {
 }
 
 variable "engineRdsVersion" {
-  default = "13.10"
+  default = "14.12"
 }
 
 variable "rdsUser" {
