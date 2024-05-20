@@ -7,7 +7,7 @@ output "rds-name-product" {
 }
 
 output "rds-name-product" {
-  value = "rds-${var.projectNameProduct}"
+  value = "rds-${var.projectNameOrder}"
 }
 
 output "security_group_id" {
